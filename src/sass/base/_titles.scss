@@ -8,11 +8,31 @@ h1 {
     padding-top: 10px;
     font-size: 12px;
     text-transform: uppercase;
-    text-align: center;
+    text-align: left;
 }
 
 .title__descr {
     padding-top: 36px;
     font-size: 18px;
     color: $secondary-color;
+}
+
+.page__title {
+    padding-top: 15px;
+    font-size: 70px;
+    line-height: 70px;
+}
+
+.title__upper_center {
+    padding-top: 5px;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.page__title_center {
+    padding-top: 5px;
+    font-size: 70px;
+    line-height: 70px;
+    text-align: center;
 }

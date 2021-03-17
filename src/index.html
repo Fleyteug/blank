@@ -20,7 +20,7 @@
         <a href="#" class="sidepanel__link"><img src="icons/sidebar/lilogo.png" alt="linkedIn"></a>
     </aside> 
 
-    <div class="promo">
+    <section class="promo">
         <div class="promo__nav">
             <div class="nav__logo">
                 <img src="icons/logo.png" alt="logo">
@@ -28,19 +28,19 @@
             <div class="menu">
                 <div class="menu__wrapper">
                     <div class="menu__item-wrapper">
-                        <div class="menu__item"><a href="#" class="menu__link">Why Blank</a></div>
+                        <div data-nav class="menu__item"><a href="#" class="menu__link">Why Blank</a></div>
                     </div>
                     <div class="menu__item-wrapper">
-                        <div class="menu__item"><a href="#" class="menu__link">What blank offers</a></div>
+                        <div data-nav class="menu__item"><a href="#" class="menu__link">What blank offers</a></div>
                     </div>
                     <div class="menu__item-wrapper">
-                        <div class="menu__item"><a href="#" class="menu__link">How it works</a></div>
+                        <div data-nav class="menu__item"><a href="#" class="menu__link">How it works</a></div>
                     </div>
                     <div class="menu__item-wrapper">
-                        <div class="menu__item"><a href="#" class="menu__link">Blank token</a></div>
+                        <div data-nav class="menu__item"><a href="#" class="menu__link">Blank token</a></div>
                     </div>
                     <div class="menu__item-wrapper">
-                        <div class="menu__item menu__item-active"><a href="#" class="menu__link">Token Metrics</a></div>
+                        <div data-nav class="menu__item"><a href="#" class="menu__link">Token Metrics</a></div>
                     </div>
                 </div>
             </div>
@@ -75,16 +75,71 @@
 
                     </div>
                     <div class="page__grid-right">
-                        <img src="img/1st/account1.png" alt="">
+                        <img src="img/1st/account1.png" alt="account">
                     </div>
                 </div>
             </div>
         </div>
+    </section>
+    
+    <section class="Whyblank">
+        <div class="container">
+            <div class="page__grid">
+                <div class="page__grid-left">
+                    <h2 class="title__upper">Why go blank</h2>
+                    <h2 class="page__title">You’re not anonymous, even on blockchain.</h2>
+                    <div class="title__descr">
+                        <p>Even before you connect your wallet, your IP is exposed. Once you connect, your wallet address is exposed. If anyone wants to trace you, they can see the decentralized apps you used, the transfers you made, and the amount of crypto $$$ you hold in your account.</p>
+                    </div>
+                </div>
+                <div class="page__grid-right">
+                    <img src="img/2nd/blankmessages.png" alt="messages">
+                </div>
+            </div>
+            <div class="line_vertical"></div>
         </div>
-    </div>
+    </section>
+
+    <section class="blankdoes">
+        <div class="container">
+            <div class="line__wrapper">
+                <div class="line_vertical_2"></div>
+                <div class="line_horizontal"></div>
+                <div class="line_arrow_up"></div>
+                <div class="line_arrow_down"></div>
+            </div>
+            <div class="titles__wrapper">
+                <h2 class="title__upper_center">What blank does</h2>
+                <h2 class="page__title_center">Hide it all. Go Blank.</h2>
+            </div>
+            <div class="blankdoes__advantages">
+                <div class="advantage__item advantage__item_1">
+                    <div class="advantage__item_wrapper">
+                        <img src="icons/3rd/item1.png" alt="">
+                        <h3 class="advantage__item_title">Conceal your wealth</h3>
+                        <div class="advantage__item_descr">Only you can see, access, and manage your funds. We group your wealth with other individuals’ under a smart contract, so no one can track capital ownership but you.</div>
+                    </div>
+                </div>
+                <div class="advantage__item advantage__item_2">
+                    <div class="advantage__item_wrapper">
+                        <img src="icons/3rd/item2.png" alt="">
+                        <h3 class="advantage__item_title">Hide origins of your wealth</h3>
+                        <div class="advantage__item_descr">Information about how you acquired your wealth should stay with you. We give you the option to hide or show your wealth origins.</div>
+                    </div>
+                </div>
+                <div class="advantage__item advantage__item_3">
+                    <div class="advantage__item_wrapper">
+                        <img src="icons/3rd/item3.png" alt="">
+                        <h3 class="advantage__item_title">Cover your trading activity</h3>
+                        <div class="advantage__item_descr">No KYC. Maximum privacy. Each time you make a withdrawal or a new trade, you start on a blank piece of paper -- a new wallet with no previous activity history.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
-    <!-- Доделал верстку первого экрана, надо прописать js к нему (перебор нава, модальные кнопки) -->
+    <!-- Доделал 3 секцию. нет адаптации) -->
     <script src="js/script.js"></script>
 </body>
 </html>

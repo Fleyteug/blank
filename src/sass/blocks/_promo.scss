@@ -1,7 +1,7 @@
 .promo {
     background: url('../img/1st/1stbg.jpg') center (center/cover) no-repeat;
     .promo__nav {
-        width: 1360px;
+        width: 100%;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
@@ -16,20 +16,27 @@
                 justify-content: space-between;
                 list-style-type: none;
                 .menu__item-wrapper {
-                    padding-left: 46px;
+                    padding: 10px 20px;
                 }
                 .menu__item {
-                    padding-top: 12px;
-                    font-size: 12px;
+                    padding-top: 10px;
+                    font-size: 13px;
                     text-transform: uppercase;
+                    width: 120%;
+                    height: 120%;
+                    background-color: transparent;
+                    border-radius: 6px;
+                    text-align: center;
+                    transition: 0.8s;
                     
                 }
                 .menu__item-active {
-                    width: 160px;
-                    height: 40px;
+                    width: 120%;
+                    height: 120%;
                     background-color: $secondary-color;
                     border-radius: 6px;
                     text-align: center;
+                    transition: 0.8s;
                     .menu__link {
                         color: #ffffff;
                     }
