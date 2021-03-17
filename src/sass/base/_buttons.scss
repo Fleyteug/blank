@@ -1,0 +1,22 @@
+.btn {
+    height: 58px;
+    width: 260px;
+    border-radius: 6px;
+    background-color: transparent;
+    border-color: $secondary-color;
+    text-transform: uppercase;
+    .btn_content {
+        margin: 0 10px;
+        width: 220px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &_active {
+        background-color: $btn-color;
+        border: transparent;
+    }
+    svg {
+        fill: #ffffff;
+    }
+
+}

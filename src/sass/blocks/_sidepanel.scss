@@ -1,0 +1,15 @@
+.sidepanel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    top: 196px;
+    left: 24px;
+    position: fixed;
+    z-index: 3;
+    .sidepanel__link {
+        margin-bottom: 30px;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}

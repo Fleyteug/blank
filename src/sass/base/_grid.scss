@@ -1,0 +1,12 @@
+.page__grid {
+    display: grid;
+
+    grid-template-columns: 50% 50%;
+    grid-gap: 60px;
+    .page__grid-left {
+        margin: 0 auto;
+    }
+    .page__grid-right {
+        margin: 0 auto;
+    }
+}
